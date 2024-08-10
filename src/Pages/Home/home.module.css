@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .todoApp {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .todoInput {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-right: 0.5rem;
+  }
+  
+  .addButton, .saveButton, .editButton, .deleteButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .saveButton {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .editButton {
+    background-color: #ff9800;
+    color: white;
+    margin-right: 0.5rem;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .todoTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todoTable th, .todoTable td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todoItem:hover {
+    background-color: #f1f1f1;
+  }
+  
